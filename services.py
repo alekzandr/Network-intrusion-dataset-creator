@@ -43,7 +43,6 @@ class services (threading.Thread):
 			if set.servicesQ.empty()==False:
 				
 				Datalist=set.servicesQ.get()
-				global service_count
 				service_count=service_count+1
 				global serv
 				serv =[]
